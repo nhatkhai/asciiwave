@@ -278,7 +278,7 @@ if __name__ == "__main__":
 	parser.add_argument("-w", "--watch", action="store_true",
 		help="Watch file, continuously update and redraw")
 	parser.add_argument("-g", "--graphics", choices=["default", "tiny", "tall", "tiny2"],
-		default="default", help="Use a different graphics tileset")
+		default="tiny2", help="Use a different graphics tileset")
 	parser.add_argument("--hscale", type=posint,
 		help="Force hscale to a different value than specified in src config.")
 	args = parser.parse_args()
